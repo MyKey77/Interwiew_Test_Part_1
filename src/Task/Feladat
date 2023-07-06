@@ -1,0 +1,20 @@
+We' are going to code three implementations of a list that has the following basic interface:
+
+The list consinsts  of nodes. Each node has a string value , along with whatever housekeeping the list itself needs.
+New nodes are added to the end of the list.
+You can ask the list if it contains a given string. if it does , it returns the node containing that string.
+You can delete a node from the list.
+You can ask the list to return an array of all its values
+(((ListTest.java contains a basic set of unit tests to illustrate the behavior)))
+
+-----------------------------------------------
+Your task is write three implements of the list:
+
+* 1  A singly linked list (each node has reference to the next node)  -Complete the   "SingleLinkedList.java" and "SingleLinkedListNode.java"
+* 2  A doubly linked list (each node has a reference to both the next and previous nodes)  -Complete the   "DoubleLinkedList.java" and "DoubleLinkedListNode.java"
+* 3 Some other implementation of your choosing, except that it should use no references (pointers) to collect nodes together in the list
+-------------------------------------------------
+
+(YOU rw done when the unit test in LisTest.java pass)
+Obviously  you are not allowed to use predefined library classes (LinkedList , ArrayList, Vector ... ect) as our Dummy list implementations.
+
